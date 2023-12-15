@@ -1,0 +1,49 @@
+.content-container{
+    display: flex;
+    gap:10px;
+    padding:10px 0px;
+   margin:10px 0px ;
+   background-color: aliceblue;
+   width:50%;
+   justify-content: center;
+   align-items: center;
+}
+.todo-Header{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:brown;
+    font-weight: 900;
+}
+.task-input-op{
+    outline: none;
+    width:50%;
+}
+.edit-icon{
+    font-size:20px;
+    cursor:pointer;
+    color:rgb(72, 2, 116);
+   
+}
+.del-icon{
+    font-size:20px;
+    cursor: pointer;
+    color:rgb(218, 11, 11);
+
+}
+.edit1{
+    color:aqua;
+}
+.check1{
+    color:red;
+}
+.checkbox{
+   
+    width: 18px;
+    height: 18px;
+    border: 1px solid #df1717;
+}
+.checkedElement{
+    text-decoration: line-through;
+}
